@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <style>
+        body {
+            font-family: serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        .profile-container {
+            display: flex;
+            background-color: #E0F6FF;
+            border-radius: 10px;
+            max-width: 800px;
+            width: 100%;
+        }
+
+        .profile-photo {
+            background-color: #E0F6FF;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .profile-photo img {
+            max-width: 150px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .signature {
+            max-width: 100px;
+            margin-top: 10px;
+        }
+
+        .profile-info {
+            flex: 2;
+            padding: 30px;
+        }
+
+        .profile-info h1 {
+            margin-top: 0;
+        }
+
+        .profile-info section {
+            margin-bottom: 20px;
+        }
+
+        .profile-info section h2 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .profile-info section p,
+        .profile-info section ul {
+            margin: 0;
+        }
+
+        .profile-info section ul {
+            padding-left: 20px;
+        }
+
+        .profile-info section ul li {
+            margin-bottom: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #BFECFF ;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-photo">
+            <img src="profile_photo.jpg" alt="Profile Photo">
+            <img src="mysignature.jpg" alt="Signature" class="signature">
+        </div>
+        <div class="profile-info">
+            <h1>Nandini Mandhane</h1>
+            <section>
+                <h2>Personal Information</h2>
+                <p>Age: 20</p>
+                <p>Email: mandhanenandini@gmail.com</p>
+                <p>Location: Malegaon, Dist-Washim</p>
+                <p>Contact: 8605xxxxxx</p>
+            </section>
+            <section>
+                <h2>Education Qualification</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Sr. no</th>
+                            <th>Qualification</th>
+                            <th>Institute/School</th>
+                            <th>Subjects</th>
+                            <th>CGPA/Percentage</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>B.Tech(SemIV)</td>
+                            <td>GHRCE, Nagpur</td>
+                            <td>Computer Science</td>
+                            <td>9.50</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>B.Tech(SemIII)</td>
+                            <td>GHRCE, Nagpur</td>
+                            <td>Computer Science</td>
+                            <td>9.67</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>B.Tech(SemII)</td>
+                            <td>GHRCE, Nagpur</td>
+                            <td>Computer Science</td>
+                            <td>9.58</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>B.Tech(SemI)</td>
+                            <td>GHRCE, Nagpur</td>
+                            <td>Computer Science</td>
+                            <td>9.22</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>12th</td>
+                            <td>Sammee Jr. College, Malegaon-Washim</td>
+                            <td>PCMB</td>
+                            <td>89.50%</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>10th</td>
+                            <td>Shantiniketan English School, Washim</td>
+                            <td>All Subjects</td>
+                            <td>94.60%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+                <h2>Skills</h2>
+                <ul>
+                    <li>Presentation</li>
+                    <li>Time Management</li>
+                    <li>Adaptability</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Achievements</h2>
+                <ul>
+                    <li>Winner of Biomedical Hackathon 2023</li>
+                    <li>Participant of Python Hackathon 2023</li>
+                    <li>Participant of India Largest Speakathon for Limca Book of Record 2024</li>
+                    <li>Participant of Smart India Hackathon 2024</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Interests</h2>
+                <p>Cooking, Singing(Devotional Song)</p>
+            </section>
+            <section>
+                <h2>Certificates</h2>
+                <a href="https://drive.google.com/file/d/1qfAlkj339rXeJKxZs2_MfCRg17B6OJ6W/view?usp=drivesdk" target="_blank">@Biomedical Hackathon</a><br>
+                <a href="https://drive.google.com/file/d/1nxdMNUaI9rjwEwZlWbN4qU0wM9GUE052/view?usp=drivesdk" target="_blank">@Speakathon</a><br>
+                <a href="https://drive.google.com/file/d/1gTt0MRFvWsy9CLREJl6mA2B5EMyNp-fV/view?usp=drivesdk" target="_blank">@Women's Health Workshop</a>
+            </section>
+            <section>
+                <h2>Role Model</h2>
+                <p>Salil Parekh</p>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
